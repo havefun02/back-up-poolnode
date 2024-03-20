@@ -85,6 +85,7 @@ def request_job_handler(data):
 
 def submit_handler(data):
     #validating the block
+    logger=Logger()
     job_id=int(data[:8].decode('utf-8'),16)
     nonce=int(data[8:16].decode('utf-8'),16)
     n_time=int(data[16:24].decode('utf-8'),16)
@@ -107,7 +108,6 @@ def submit_handler(data):
         miner["block"]=res
         if (status==1):
             if submit_to_node(miner["block"])==0:
-                logger=Logger()
                 logger.log_info(f" Miner {username} fail to submit to node")
                 frame=Frame(submit_error,0,"")
                 return frame.create_frame()
@@ -151,16 +151,16 @@ def update_target(start,end):
         new_target=0
         if miner[2]<miner[3]*2:
             new_target=int(int(miner[0],16)*(miner[2]/(miner[3]*2)))
-            new_target=int_to_32byte_hex(d)
-            database.custom_query(f"update miners set target='{d}' where username='{miner[1]}';")
+            new_target=int_to_32byte_hex(new_target)
+            database.custom_query(f"update miners set target='{new_target}' where username='{miner[1]}';")
         else:
             new_target=int(int(miner[0],16)*((miner[3]*2)/miner[2]))
-            new_target=int_to_32byte_hex(d)
-            database.custom_query(f"update miners set target='{d}' where username='{miner[1]}';")
+            new_target=int_to_32byte_hex(new_target)
+            database.custom_query(f"update miners set target='{new_target}' where username='{miner[1]}';")
         for client in data:
             if client[0]==miner[1]:
-                client[1]["target"]=dt.target
-                user_cache.update_connection(dt.username,client[1])
+                client[1]["target"]=new_target
+                user_cache.update_connection(miner[1],client[1])
 
 #bcrt1qca54pw9pzqdlz5fm4wm8ml6qa4q5vp5qjekt2a
 # update_target(2058,2064)

@@ -31,7 +31,7 @@ class MiningServer:
         self.port = port
         self.sel = selectors.DefaultSelector()
         self.server_sock = None
-        self.block_data_lock = threading.Lock()
+        # self.block_data_lock = threading.Lock()
         self.old_block=None
         self.new_block_data = None
         self.longid = None
@@ -116,7 +116,7 @@ class MiningServer:
                     self.sel.unregister(sock)
                     sock.close()
         except Exception as e:
-            logger.log_warning(f"An unexpected error occurred: {e}")
+            self.logger.log_warning(f"An unexpected error occurred: {e}")
         
     def forward_to_method(self,type_method,data,sock):
         if int.from_bytes(type_method,'little') == open_connection:
@@ -132,7 +132,7 @@ class MiningServer:
             response=submit_handler(data)
             self.send_data(sock,response)
         elif int.from_bytes(type_method,'little') == request_job:
-            # self.logger.log_info("Miner " + " request job")
+            self.logger.log_info("Miner " + " request job")
             res=request_job_handler(data)
             self.send_data(sock,res)
         # elif int.from_bytes(type_method,'little') == request_target:
@@ -151,10 +151,16 @@ class MiningServer:
         while True:
             # with self.block_data_lock:
             if (longid!=self.longid):
-                block=rpc_getblocktemplate(self.longid)                
+                try:
+                    block=rpc_getblocktemplate(self.longid)   
+                except:
+                    self.logger.log_critical("Cannot get block, Bitcoin down")  
+                    self.server_sock=None
+                    self.sel=None
+                    sys.exit()     
                 longid=self.longid
             if (block is not None):
-                self.logger.log_info(f"Get new block:{block["height"]}")
+                self.logger.log_info(f"Get new block:{block['height']}")
                 self.longid=block["longpollid"]
                 self.new_block_data=block
                 if self.old_block is None:
@@ -180,6 +186,10 @@ class MiningServer:
                         update_target(block["height"]-UPDATE_TARGET,block["height"]-1)
                     else:
                         write_counter(int(counter)+1)
+                else:
+                    self.old_block=self.new_block_data
+                    write_block(self.new_block_data)
+
                     
                 broadcast_block()
                 block=None

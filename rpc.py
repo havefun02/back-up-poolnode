@@ -20,7 +20,7 @@ def check_block(block):
     block_hash = block_compute_raw_hash(block_header)
     # print(block_hash.hex(),target_share_hash.hex())
     if block_hash < target_hash:
-        print("found block")
+        # print("found block")
         #valid to network target
         block['hash'] = block_hash.hex()
         return (0x01,block)
