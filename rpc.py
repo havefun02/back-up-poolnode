@@ -48,6 +48,23 @@ def rpc_base(method, params=None):
         raise ValueError("RPC error: {:s}".format(json.dumps(response['error'])))
 
     return response['result']
+def rpc_wallet_base(method, params=None):
+    rpc_id = random.getrandbits(32)
+    data = json.dumps({"id": rpc_id, "method": method, "params": params}).encode()
+    auth = base64.encodebytes((RPC_USER + ":" + RPC_PASS).encode()).decode().strip()
+
+    request = urllib.request.Request(RPC_URL_WALLET, data, {"Authorization": "Basic {:s}".format(auth)})
+
+    with urllib.request.urlopen(request) as f:
+        response = json.loads(f.read())
+
+    if response['id'] != rpc_id:
+        raise ValueError("Invalid response id: got {}, expected {:u}".format(response['id'], rpc_id))
+    elif response['error'] is not None:
+        raise ValueError("RPC error: {:s}".format(json.dumps(response['error'])))
+
+    return response['result']
+
 
 def rpc_getblocktemplate(longid):
     try:
@@ -60,6 +77,11 @@ def rpc_getblocktemplate(longid):
         return {}
 def rpc_submitblock(block_submission):
     return rpc_base("submitblock", [block_submission])
+def rpc_gettxn(txn,block):
+    return rpc_base("getrawtransaction",[txn,True,block])
+def rpc_getwallet():
+    return rpc_wallet_base("getwalletinfo")
+
 def int2lehex(value, width):
     """
     Convert an unsigned integer to a little endian ASCII hex string.

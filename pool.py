@@ -5,6 +5,7 @@ import hashlib
 import time
 from logger import *
 import sys
+from config import*
 # block={'capabilities': ['proposal'], 'version': 536870912, 'rules': ['csv', '!segwit', 'testdummy', 'taproot'], 'vbavailable': {}, 'vbrequired': 0, 'previousblockhash': '000002ed201a1c5e0b190ff66cd76b703c1168cce29669b45f2d84e03885943b', 'transactions': [], 'coinbaseaux': {}, 'coinbasevalue': 5000000000, 'longpollid': '000002ed201a1c5e0b190ff66cd76b703c1168cce29669b45f2d84e03885943b2019', 'target': '000009debb000000000000000000000000000000000000000000000000000000', 'mintime': 1709116475, 'mutable': ['time', 'transactions', 'prevblock'], 'noncerange': '00000000ffffffff', 'sigoplimit': 80000, 'sizelimit': 4000000, 'weightlimit': 4000000, 'curtime': 1709275188, 'bits': '1e09debb', 'height': 2018, 'default_witness_commitment': '6a24aa21a9ede2f61c3f71d1defd3fa999dfa36953755c690689799962b48bebd836974e8cf9'}
 
 def create_jobs(username,job_id,target,block):
@@ -13,7 +14,7 @@ def create_jobs(username,job_id,target,block):
     #each job will have a particular coinbase_scripts, this scripts can be their username or id
     user_scripts=username+str(job_id)
     scripts=hashlib.sha256(user_scripts.encode('utf-8')).hexdigest()
-    coinbase=tx_make_coinbase(scripts, "bcrt1qnhuwf36kdvxf8ggzw9r4vswjaadhv3hntdz28p", block["coinbasevalue"], block["height"])
+    coinbase=tx_make_coinbase(scripts, pool_address, block["coinbasevalue"], block["height"])
     coinbase_hash=tx_compute_hash(coinbase)
     block["coinbase_data"]=coinbase
     block["transactions"].insert(0,coinbase_hash)

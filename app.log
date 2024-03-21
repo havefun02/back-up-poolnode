@@ -1148,3 +1148,154 @@
 2024-03-20 16:59:50,249 - INFO - Miner  request job
 2024-03-20 16:59:57,122 - CRITICAL - Server terminated. Closing connections.
 2024-03-20 16:59:57,288 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:02:43,021 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 15:02:43,036 - INFO - Get new block:2059
+2024-03-21 15:02:43,037 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:03:04,722 - INFO - Accepted connection from ('127.0.0.1', 50670)
+2024-03-21 15:03:04,726 - INFO -  Miner authorize
+2024-03-21 15:03:04,735 - WARNING - An unexpected error occurred: a bytes-like object is required, not 'NoneType'
+2024-03-21 15:03:27,458 - INFO - Closing connection to ('127.0.0.1', 50670)
+2024-03-21 15:03:28,557 - INFO - Accepted connection from ('127.0.0.1', 45470)
+2024-03-21 15:03:28,558 - INFO -  Miner authorize
+2024-03-21 15:03:28,561 - WARNING - An unexpected error occurred: a bytes-like object is required, not 'NoneType'
+2024-03-21 15:04:42,276 - INFO - Closing connection to ('127.0.0.1', 45470)
+2024-03-21 15:04:46,118 - INFO - Accepted connection from ('127.0.0.1', 59392)
+2024-03-21 15:04:46,118 - INFO -  Miner authorize
+2024-03-21 15:04:46,136 - INFO - Miner  request job
+2024-03-21 15:05:10,878 - INFO - Get new block:2060
+2024-03-21 15:05:10,879 - INFO -  Miner username submited to node
+2024-03-21 15:05:10,881 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:05:10,897 - INFO - Miner  request job
+2024-03-21 15:05:26,843 - INFO -  Miner username submited to node
+2024-03-21 15:05:26,845 - INFO - Get new block:2061
+2024-03-21 15:05:26,850 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:05:26,872 - INFO - Miner  request job
+2024-03-21 15:05:37,603 - INFO -  Miner username submited to node
+2024-03-21 15:05:37,604 - INFO - Get new block:2062
+2024-03-21 15:05:37,611 - INFO - Update entire miner's target
+2024-03-21 15:05:37,673 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:05:37,675 - INFO - Miner  request job
+2024-03-21 15:05:37,880 - INFO - Closing connection to ('127.0.0.1', 59392)
+2024-03-21 15:08:06,525 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:08:06,715 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:08:08,062 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 15:08:08,108 - INFO - Get new block:2062
+2024-03-21 15:08:08,109 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:11,591 - INFO - Accepted connection from ('127.0.0.1', 39634)
+2024-03-21 15:08:11,591 - INFO -  Miner authorize
+2024-03-21 15:08:11,622 - INFO - Miner  request job
+2024-03-21 15:08:13,434 - INFO -  Miner username submited to node
+2024-03-21 15:08:13,480 - INFO - Get new block:2063
+2024-03-21 15:08:13,485 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:13,505 - INFO - Miner  request job
+2024-03-21 15:08:16,298 - INFO - Get new block:2064
+2024-03-21 15:08:16,348 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:16,350 - INFO -  Miner username submited to node
+2024-03-21 15:08:16,379 - INFO - Miner  request job
+2024-03-21 15:08:32,957 - INFO - Get new block:2065
+2024-03-21 15:08:32,958 - INFO -  Miner username submited to node
+2024-03-21 15:08:32,964 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:33,005 - INFO - Miner  request job
+2024-03-21 15:08:46,580 - INFO - Get new block:2066
+2024-03-21 15:08:46,584 - INFO -  Miner username submited to node
+2024-03-21 15:08:46,589 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:46,649 - INFO - Miner  request job
+2024-03-21 15:08:55,775 - INFO - Get new block:2067
+2024-03-21 15:08:55,776 - INFO -  Miner username submited to node
+2024-03-21 15:08:55,782 - INFO - Update entire miner's target
+2024-03-21 15:08:55,943 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:55,945 - INFO - Miner  request job
+2024-03-21 15:08:57,046 - INFO -  Miner username submited to node
+2024-03-21 15:08:57,087 - INFO - Get new block:2068
+2024-03-21 15:08:57,096 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:08:57,107 - INFO - Miner  request job
+2024-03-21 15:09:08,239 - INFO - Closing connection to ('127.0.0.1', 39634)
+2024-03-21 15:15:42,299 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:15:42,513 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:58:23,775 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 15:58:23,787 - INFO - Get new block:2068
+2024-03-21 15:58:23,788 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:58:27,291 - INFO - Accepted connection from ('127.0.0.1', 45306)
+2024-03-21 15:58:27,294 - INFO -  Miner authorize
+2024-03-21 15:58:27,316 - INFO - Miner  request job
+2024-03-21 15:58:38,021 - INFO - Get new block:2069
+2024-03-21 15:58:38,024 - INFO -  Miner username submited to node
+2024-03-21 15:58:38,037 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:58:38,065 - INFO - Miner  request job
+2024-03-21 15:58:40,912 - INFO -  Miner username submited to node
+2024-03-21 15:58:40,918 - INFO - Get new block:2070
+2024-03-21 15:58:40,926 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:58:40,947 - INFO - Miner  request job
+2024-03-21 15:58:42,525 - INFO -  Miner username submited to node
+2024-03-21 15:58:42,529 - INFO - Get new block:2071
+2024-03-21 15:58:42,531 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:58:42,605 - INFO - Miner  request job
+2024-03-21 15:58:45,003 - INFO - Closing connection to ('127.0.0.1', 45306)
+2024-03-21 15:58:46,545 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:58:46,716 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:59:41,418 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 15:59:41,480 - INFO - Get new block:2071
+2024-03-21 15:59:41,481 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:59:44,525 - INFO - Accepted connection from ('127.0.0.1', 34980)
+2024-03-21 15:59:44,526 - INFO -  Miner authorize
+2024-03-21 15:59:44,555 - INFO - Miner  request job
+2024-03-21 15:59:45,505 - INFO - Get new block:2072
+2024-03-21 15:59:45,507 - INFO -  Miner username submited to node
+2024-03-21 15:59:45,507 - WARNING - An unexpected error occurred: 'Database' object has no attribute 'add'
+2024-03-21 15:59:45,513 - INFO - Update entire miner's target
+2024-03-21 15:59:45,574 - INFO -  Broadcast event to entire nodes
+2024-03-21 15:59:45,576 - INFO - Miner  request job
+2024-03-21 15:59:55,030 - INFO - Closing connection to ('127.0.0.1', 34980)
+2024-03-21 15:59:57,892 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 15:59:58,060 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:00:07,098 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 16:00:07,116 - INFO - Get new block:2072
+2024-03-21 16:00:07,116 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:00:10,527 - INFO - Accepted connection from ('127.0.0.1', 45650)
+2024-03-21 16:00:10,527 - INFO -  Miner authorize
+2024-03-21 16:00:10,541 - INFO - Miner  request job
+2024-03-21 16:00:29,783 - INFO -  Miner username submited to node
+2024-03-21 16:00:29,789 - INFO - Get new block:2073
+2024-03-21 16:00:29,797 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:00:29,880 - INFO - Miner  request job
+2024-03-21 16:00:32,961 - INFO - Closing connection to ('127.0.0.1', 45650)
+2024-03-21 16:00:34,659 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:00:34,837 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:04:38,729 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 16:04:38,738 - INFO - Get new block:2073
+2024-03-21 16:04:38,738 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:04:40,784 - INFO - Accepted connection from ('127.0.0.1', 41360)
+2024-03-21 16:04:40,786 - INFO -  Miner authorize
+2024-03-21 16:04:40,796 - INFO - Miner  request job
+2024-03-21 16:04:43,680 - INFO - Get new block:2074
+2024-03-21 16:04:43,687 - INFO -  Miner username submited to node
+2024-03-21 16:04:43,705 - WARNING - An unexpected error occurred: (sqlite3.OperationalError) table rewards_record has no column named block
+[SQL: INSERT INTO rewards_record (id, block) VALUES (?, ?)]
+[parameters: ('1ac583ae13e85a2604f7d12f40522390da8eb5d3cf5bda2e136271c0cc1ca509', '0000083b21b6c1c54a6ed82cb74c7f94d7d552ddc1e5f7870a353727c5ad73a6')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-03-21 16:04:43,706 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:04:43,709 - INFO - Miner  request job
+2024-03-21 16:04:53,023 - INFO -  Miner username submited to node
+2024-03-21 16:04:53,025 - INFO - Get new block:2075
+2024-03-21 16:04:53,026 - WARNING - An unexpected error occurred: (sqlite3.OperationalError) table rewards_record has no column named block
+[SQL: INSERT INTO rewards_record (id, block) VALUES (?, ?)]
+[parameters: ('b5d12c4a6851706d504d4593a152cf1f69f10fd4c4ca65ffdc6a7ff14990ba39', '000005d55b2bef7b8d5264ac5c8bdd1c2a9e2cc1813fa047a89443df8ea5885d')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-03-21 16:04:53,033 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:04:53,035 - INFO - Miner  request job
+2024-03-21 16:04:56,015 - INFO - Closing connection to ('127.0.0.1', 41360)
+2024-03-21 16:05:27,209 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:05:27,393 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:08:23,459 - INFO - Server listening on 127.0.0.1:3002
+2024-03-21 16:08:23,466 - INFO - Get new block:2075
+2024-03-21 16:08:23,469 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:08:30,524 - INFO - Accepted connection from ('127.0.0.1', 49042)
+2024-03-21 16:08:30,525 - INFO -  Miner authorize
+2024-03-21 16:08:30,541 - INFO - Miner  request job
+2024-03-21 16:08:35,524 - INFO - Get new block:2076
+2024-03-21 16:08:35,525 - INFO -  Miner username submited to node
+2024-03-21 16:08:35,534 - INFO -  Broadcast event to entire nodes
+2024-03-21 16:08:35,609 - INFO - Miner  request job
+2024-03-21 16:08:38,525 - INFO - Closing connection to ('127.0.0.1', 49042)
+2024-03-21 16:08:40,533 - CRITICAL - Server terminated. Closing connections.
+2024-03-21 16:08:40,721 - CRITICAL - Server terminated. Closing connections.

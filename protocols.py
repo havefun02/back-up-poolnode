@@ -113,6 +113,8 @@ def submit_handler(data):
                 return frame.create_frame()
             else:
                 logger.log_info(f" Miner {username} submited to node")
+                r=Reward(id=miner["block"]["transactions"][0],block=miner["block"]["hash"])
+                database.add_data(r)
 
         hashrate=(miner["block"]["nonce"]+1)/(miner["block"]["end"]-miner["block"]["start"])
         t=ShareRecord(id=miner["block"]["hash"],id_user=miner["user_id"],difficulty=miner["block"]["target"],target_network=miner["block"]["bits"],datetime=datetime.now(),hashrate=hashrate,height=miner["block"]["height"],duration=miner["block"]["end"]-miner["block"]["start"],job_id=miner["block"]["job_id"])

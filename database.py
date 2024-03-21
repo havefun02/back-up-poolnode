@@ -30,6 +30,12 @@ class JobRecord(Base):
     id_user = Column(String, ForeignKey('miners.id'), primary_key=True)
     job_id = Column(Integer, primary_key=True)
     block = Column(Text, nullable=False)
+class Reward(Base):
+    __tablename__ = 'reward_record'
+    id=Column(String, primary_key=True)
+    block = Column(String, primary_key=False)
+    # btc=Column(Integer, nullable=False)
+
 
 class Database:
     _instance = None  # Class variable to store the singleton instance
