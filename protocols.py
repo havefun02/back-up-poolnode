@@ -108,11 +108,11 @@ def submit_handler(data):
         miner["block"]=res
         if (status==1):
             if submit_to_node(miner["block"])==0:
-                logger.log_info(f" Miner {username} fail to submit to node")
+                logger.log_info(f"Miner {username} fail to submit to node ")
                 frame=Frame(submit_error,0,"")
                 return frame.create_frame()
             else:
-                logger.log_info(f" Miner {username} submited to node")
+                logger.log_info(f"Miner {username} submited to node , Block { miner['block']['height'] }")
                 r=Reward(id=miner["block"]["transactions"][0],block=miner["block"]["hash"])
                 database.add_data(r)
 

@@ -31,16 +31,7 @@ def validate_shares(block):
     status,res=check_block(block)
     return status,res
     
-def distribute_rewards():
-    return""
 
-def get_target(user):
-    miner=ORM_findOne(Miner,username=user)
-    if miner is None:
-        return None
-    return miner.target
-def create_block(block,nonce,ntime):
-    return ""
 def submit_to_node(block):
     # block_cache=read_block()
     # block_cache=ast.literal_eval(block_cache)
@@ -57,6 +48,7 @@ def submit_to_node(block):
             return 0
         else:
             # print(response)
+            
             return 1
     except:
         logger=Logger()

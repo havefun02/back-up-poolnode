@@ -147,21 +147,23 @@ class MiningServer:
         if tmp is not None:
             self.old_block=ast.literal_eval(tmp)            
         block=None
-        longid=1
+        tmp=0
         while True:
-            # with self.block_data_lock:
-            if (longid!=self.longid):
+            if self.longid!=tmp:
                 try:
+                    tmp=self.longid
                     block=rpc_getblocktemplate(self.longid)   
                 except:
-                    self.logger.log_critical("Cannot get block, Bitcoin down")  
-                    self.server_sock=None
-                    self.sel=None
-                    sys.exit()     
-                longid=self.longid
+                    self.logger.log_critical("Cannot get block, Bitcoin down")
+            
+                
             if (block is not None):
                 self.logger.log_info(f"Get new block:{block['height']}")
-                self.longid=block["longpollid"]
+                if self.longid==block["longpollid"]:
+                    block=None
+                    continue
+                else:
+                    self.longid=block["longpollid"]
                 self.new_block_data=block
                 if self.old_block is None:
                     self.old_block=self.new_block_data
@@ -189,8 +191,6 @@ class MiningServer:
                 else:
                     self.old_block=self.new_block_data
                     write_block(self.new_block_data)
-
-                    
                 broadcast_block()
                 block=None
 
