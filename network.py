@@ -37,6 +37,9 @@ class MiningServer:
         self.longid = None
         self.logger = Logger()
 
+    def get_state(self):
+        return self.state
+
     def handle_termination(self, signum, frame):
         self.logger.log_critical("Server terminated. Closing connections.")
         # print("Server terminated. Closing connections.")
@@ -120,8 +123,9 @@ class MiningServer:
         
     def forward_to_method(self,type_method,data,sock):
         if int.from_bytes(type_method,'little') == open_connection:
-            self.logger.log_info(" Miner " + "authorize")
             res=open_handler(data,sock)
+            if (res is not None):
+                self.logger.log_info("Miner " + "authorized")
             self.send_data(sock,res)
         # elif int.from_bytes(type_method,'little')==register:
         #     self.logger.log_info("Miner " + " register")
@@ -152,12 +156,14 @@ class MiningServer:
             if self.longid!=tmp:
                 try:
                     tmp=self.longid
-                    block=rpc_getblocktemplate(self.longid)   
+                    block=rpc_getblocktemplate(self.longid)
                 except:
                     self.logger.log_critical("Cannot get block, Bitcoin down")
             
-                
             if (block is not None):
+                if (self.new_block_data is not None):
+                    if (block["height"]==self.new_block_data["height"]):
+                        continue
                 self.logger.log_info(f"Get new block:{block['height']}")
                 if self.longid==block["longpollid"]:
                     block=None

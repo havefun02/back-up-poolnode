@@ -21,8 +21,8 @@ class ShareRecord(Base):
     difficulty = Column(String, nullable=False)
     target_network = Column(String, nullable=False)
     datetime = Column(DateTime, nullable=False)
-    duration=Column(Integer,nullable=False)
-    hashrate= Column(String, nullable=False)
+    # duration=Column(Integer,nullable=False)
+    # hashrate= Column(String, nullable=False)
     job_id = Column(Integer, nullable=False)
     height=Column(Integer, nullable=False)
 class JobRecord(Base):
@@ -126,6 +126,6 @@ class Database:
 
 # database=Database()
 # database.create_all_entities(drop_existing=True)
-# miner = Miner(id='123', username='username', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
-# miner = Miner(id='1234', username='username1', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+# miner = Miner(id='123', username='username', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+# # # miner = Miner(id='1234', username='username1', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 # database.add_data(miner)
