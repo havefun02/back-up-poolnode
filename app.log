@@ -1,0 +1,106 @@
+2024-05-16 10:45:25,091 - INFO - Server listening on 127.0.0.1:3002
+2024-05-16 10:45:25,119 - INFO - Get new block:1
+2024-05-16 10:45:25,121 - INFO - Broadcast block to entire network
+2024-05-16 10:45:32,538 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 10:45:32,654 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 10:45:32,821 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 10:50:55,647 - INFO - Server listening on 127.0.0.1:3002
+2024-05-16 10:50:55,657 - INFO - Get new block:2017
+2024-05-16 10:50:55,662 - INFO - Broadcast block to entire network
+2024-05-16 10:51:30,103 - INFO - Accepted connection from ('127.0.0.1', 51324)
+2024-05-16 10:51:30,143 - INFO - Miner authorized
+2024-05-16 10:51:58,988 - INFO - Miner  request job
+2024-05-16 10:52:04,037 - INFO - Get new block:2018
+2024-05-16 10:52:04,043 - INFO - Miner username submited to node , Block 2017
+2024-05-16 10:52:04,044 - INFO - Broadcast block to entire network
+2024-05-16 10:52:04,141 - INFO - Miner  request job
+2024-05-16 10:52:05,159 - INFO - Miner username submited to node , Block 2018
+2024-05-16 10:52:05,159 - INFO - Get new block:2019
+2024-05-16 10:52:05,279 - INFO - Broadcast block to entire network
+2024-05-16 10:52:05,482 - INFO - Miner  request job
+2024-05-16 10:52:08,044 - INFO - Closing connection to ('127.0.0.1', 51324)
+2024-05-16 10:54:14,016 - INFO - Accepted connection from ('127.0.0.1', 38768)
+2024-05-16 10:54:14,036 - INFO - Miner authorized
+2024-05-16 10:54:18,148 - INFO - Miner  request job
+2024-05-16 10:54:29,550 - INFO - Closing connection to ('127.0.0.1', 38768)
+2024-05-16 10:55:03,031 - INFO - Accepted connection from ('127.0.0.1', 33752)
+2024-05-16 10:55:03,076 - INFO - Miner authorized
+2024-05-16 10:55:11,788 - INFO - Miner  request job
+2024-05-16 10:55:17,849 - INFO - Get new block:2020
+2024-05-16 10:55:17,852 - INFO - Miner username submited to node , Block 2019
+2024-05-16 10:55:17,861 - INFO - Broadcast block to entire network
+2024-05-16 10:55:17,979 - INFO - Miner  request job
+2024-05-16 10:55:52,715 - INFO - Closing connection to ('127.0.0.1', 33752)
+2024-05-16 10:55:54,464 - INFO - Accepted connection from ('127.0.0.1', 35954)
+2024-05-16 10:55:54,547 - INFO - Miner authorized
+2024-05-16 10:55:55,671 - INFO - Miner  request job
+2024-05-16 10:56:19,630 - INFO - Get new block:2021
+2024-05-16 10:56:19,631 - INFO - Miner username submited to node , Block 2020
+2024-05-16 10:56:19,637 - INFO - Update miner's target
+2024-05-16 10:57:39,840 - INFO - Closing connection to ('127.0.0.1', 35954)
+2024-05-16 10:57:42,416 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 10:57:52,763 - INFO - Server listening on 127.0.0.1:3002
+2024-05-16 10:57:52,779 - INFO - Get new block:2021
+2024-05-16 10:57:52,780 - INFO - Broadcast block to entire network
+2024-05-16 10:57:59,128 - INFO - Accepted connection from ('127.0.0.1', 34476)
+2024-05-16 10:57:59,163 - INFO - Miner authorized
+2024-05-16 10:58:00,802 - INFO - Miner  request job
+2024-05-16 10:58:08,760 - INFO - Closing connection to ('127.0.0.1', 34476)
+2024-05-16 10:59:14,269 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 10:59:14,435 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 11:00:09,118 - INFO - Server listening on 127.0.0.1:3002
+2024-05-16 11:00:09,167 - INFO - Get new block:2021
+2024-05-16 11:00:09,168 - INFO - Broadcast block to entire network
+2024-05-16 11:00:13,346 - INFO - Accepted connection from ('127.0.0.1', 58638)
+2024-05-16 11:00:13,378 - INFO - Miner authorized
+2024-05-16 11:00:17,979 - INFO - Miner  request job
+2024-05-16 11:00:31,694 - INFO - Closing connection to ('127.0.0.1', 58638)
+2024-05-16 11:13:37,463 - INFO - Accepted connection from ('127.0.0.1', 50886)
+2024-05-16 11:13:37,474 - INFO - Miner authorized
+2024-05-16 11:13:41,309 - INFO - Miner  request job
+2024-05-16 11:13:42,112 - INFO - Miner username submited to node , Block 2021
+2024-05-16 11:13:42,120 - INFO - Get new block:2022
+2024-05-16 11:13:42,138 - INFO - Broadcast block to entire network
+2024-05-16 11:13:42,183 - INFO - Miner  request job
+2024-05-16 11:13:43,917 - INFO - Get new block:2023
+2024-05-16 11:13:43,920 - INFO - Miner username submited to node , Block 2022
+2024-05-16 11:13:43,924 - INFO - Broadcast block to entire network
+2024-05-16 11:13:43,990 - INFO - Miner  request job
+2024-05-16 11:13:55,857 - INFO - Closing connection to ('127.0.0.1', 50886)
+2024-05-16 11:33:30,347 - INFO - Accepted connection from ('127.0.0.1', 45096)
+2024-05-16 11:33:30,359 - INFO - Miner authorized
+2024-05-16 11:33:36,225 - INFO - Miner  request job
+2024-05-16 11:33:36,846 - INFO - Get new block:2024
+2024-05-16 11:33:36,847 - INFO - Miner username submited to node , Block 2023
+2024-05-16 11:33:36,856 - INFO - Broadcast block to entire network
+2024-05-16 11:33:36,896 - INFO - Miner  request job
+2024-05-16 11:33:46,591 - INFO - Closing connection to ('127.0.0.1', 45096)
+2024-05-16 11:36:02,992 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 11:36:03,155 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 12:02:04,251 - INFO - Server listening on 127.0.0.1:3002
+2024-05-16 12:02:04,264 - INFO - Get new block:2024
+2024-05-16 12:02:04,266 - INFO - Broadcast block to entire network
+2024-05-16 12:02:06,827 - INFO - Accepted connection from ('127.0.0.1', 40558)
+2024-05-16 12:02:06,846 - INFO - Miner authorized
+2024-05-16 12:02:08,052 - INFO - Miner  request job
+2024-05-16 12:02:10,659 - INFO - Miner username submited to node , Block 2024
+2024-05-16 12:02:10,661 - INFO - Get new block:2025
+2024-05-16 12:02:10,664 - INFO - Broadcast block to entire network
+2024-05-16 12:02:10,736 - INFO - Miner  request job
+2024-05-16 12:02:14,457 - INFO - Closing connection to ('127.0.0.1', 40558)
+2024-05-16 12:09:10,060 - INFO - Accepted connection from ('127.0.0.1', 41678)
+2024-05-16 12:09:10,087 - INFO - Miner authorized
+2024-05-16 12:09:11,505 - INFO - Miner  request job
+2024-05-16 12:09:19,026 - INFO - Closing connection to ('127.0.0.1', 41678)
+2024-05-16 12:09:41,073 - INFO - Accepted connection from ('127.0.0.1', 59058)
+2024-05-16 12:09:41,093 - INFO - Miner authorized
+2024-05-16 12:09:41,566 - INFO - Miner  request job
+2024-05-16 12:09:44,965 - INFO - Closing connection to ('127.0.0.1', 59058)
+2024-05-16 12:10:35,759 - INFO - Accepted connection from ('127.0.0.1', 59646)
+2024-05-16 12:10:35,771 - INFO - Miner authorized
+2024-05-16 12:10:37,609 - INFO - Miner  request job
+2024-05-16 12:10:57,028 - INFO - Closing connection to ('127.0.0.1', 59646)
+2024-05-16 12:59:40,981 - INFO - Get new block:2026
+2024-05-16 12:59:40,992 - INFO - Update miner's target
+2024-05-16 13:07:42,390 - CRITICAL - Server terminated. Closing connections.
+2024-05-16 13:07:42,542 - CRITICAL - Server terminated. Closing connections.

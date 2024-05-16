@@ -12,6 +12,7 @@ from rpc import*
 import ast
 import hashlib
 from logger import *
+from config import *
 # def register(data):
 #     database=Database()
 #     byte_data = bytes.fromhex(data.decode('utf-8'))
@@ -29,6 +30,8 @@ def open_handler(data,socket):
     result_string = byte_data.decode('utf-8')
     auth=Authorize.extract(result_string)
     miner=database.find_one(Miner, username=auth.username)
+    logger=Logger()
+
     if miner is None:
         payload=unknown_user
         frame=Frame(open_error,1,str(payload))
@@ -41,7 +44,7 @@ def open_handler(data,socket):
             user_cache.add_connection(miner.username,socket,None,miner.id,miner.target,None)
         else:
             user_cache.add_connection(miner.username,socket,job.job_id,miner.id,miner.target,ast.literal_eval(job.block))
-        payload=Frame.string_to_hex(miner.username)
+        payload=Frame.string_to_hex(miner.target+miner.username)
         frame=Frame(open_success,len(payload),payload)
         res=frame.create_frame()
         return res
@@ -89,12 +92,13 @@ def submit_handler(data):
     job_id=int(data[:8].decode('utf-8'),16)
     nonce=int(data[8:16].decode('utf-8'),16)
     n_time=int(data[16:24].decode('utf-8'),16)
-    byte_data = bytes.fromhex(data[24:].decode('utf-8'))
+    hashrate=int(data[24:32].decode('utf-8'),16)
+    byte_data = bytes.fromhex(data[32:].decode('utf-8'))
     username=byte_data.decode('utf-8')
     miner=user_cache.get_connection(username)
     target=miner["target"]
-    miner["block"]["end"]=time.time()
     miner["block"]["nonce"]=nonce
+    miner["block"]["hashrate"]=hashrate
     miner["block"]["curtime"]=n_time
     if (job_id>miner["job_id"]):
         frame=Frame(job_not_found,0,"")
@@ -116,10 +120,9 @@ def submit_handler(data):
                 r=Reward(id=miner["block"]["transactions"][0],block=miner["block"]["hash"])
                 database.add_data(r)
 
-        hashrate=(miner["block"]["nonce"]+1)/(miner["block"]["end"]-miner["block"]["start"])
-        t=ShareRecord(id=miner["block"]["hash"],id_user=miner["user_id"],difficulty=miner["block"]["target"],target_network=miner["block"]["bits"],datetime=datetime.now(),hashrate=hashrate,height=miner["block"]["height"],duration=miner["block"]["end"]-miner["block"]["start"],job_id=miner["block"]["job_id"])
+        hashrate=miner["block"]["hashrate"]
+        t=ShareRecord(id=miner["block"]["hash"],id_user=miner["user_id"],difficulty=miner["block"]["target"],target_network=miner["block"]["bits"],datetime=datetime.now(),height=miner["block"]["height"],job_id=miner["block"]["job_id"])
         database.add_data(t)
-        miner["block"]["start"]=miner["block"]["end"]
         user_cache.update_connection(username,miner)
         frame=Frame(submit_success,0,"")
         return frame.create_frame()
@@ -129,7 +132,7 @@ def submit_handler(data):
 def broadcast_block():
     # print("broadcast block")
     logger=Logger()
-    logger.log_info(" Broadcast event to entire nodes")
+    logger.log_info("Broadcast block to entire network")
     data=user_cache.get_all_connections()
     for client in data:
         try:
@@ -145,28 +148,30 @@ def int_to_32byte_hex(num):
 
 def update_target(start,end):
     logger=Logger()
-    logger.log_info("Update entire miner's target")
+    logger.log_info("Update miner's target")
     database=Database()
-    miners=database.custom_query(f"select miners.target,miners.username,sum(share_record.duration),count(share_record.id) from miners,share_record where miners.id=share_record.id_user and share_record.height>= {start} and share_record.height<={end} group by miners.id")
+    miners=database.custom_query(f"select miners.target,miners.username,sum(share_record),count(share_record.id) from miners,share_record where miners.id=share_record.id_user and share_record.height>= {start} and share_record.height<={end} group by miners.id")
     data=user_cache.get_all_connections()
     for miner in miners:
         new_target=0
-        if miner[2]<miner[3]*2:
-            new_target=int(int(miner[0],16)*(miner[2]/(miner[3]*2)))
-            new_target=int_to_32byte_hex(new_target)
-            database.custom_query(f"update miners set target='{new_target}' where username='{miner[1]}';")
-        else:
-            new_target=int(int(miner[0],16)*((miner[3]*2)/miner[2]))
-            new_target=int_to_32byte_hex(new_target)
-            database.custom_query(f"update miners set target='{new_target}' where username='{miner[1]}';")
+        d=(miner[2]*2)/pow(2,24)
+        new_target=int(DEFAUTL_TARGET,16)/d
+        new_target=int_to_32byte_hex(new_target)
+        hex_str = hex(new_target)[2:]
+
+        hex_str_padded = hex_str.zfill(32)
+        database.custom_query(f"update miners set target='{hex_str_padded}' where username='{miner[1]}';")
         for client in data:
             if client[0]==miner[1]:
                 client[1]["target"]=new_target
                 user_cache.update_connection(miner[1],client[1])
 
 #bcrt1qca54pw9pzqdlz5fm4wm8ml6qa4q5vp5qjekt2a
-# update_target(2058,2064)
-
+# update_target(2245,2255)
+# t=time.time()
+# time.sleep(10)
+# t1=time.time()
+# print(t1-t)
 # Example usage
 # integer_value = 9305245895680597045479230516168994599843208932407817362870921237171798016
 # hex_representation = int_to_32byte_hex(int(integer_value))
