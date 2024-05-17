@@ -7,7 +7,7 @@ Base = declarative_base()
 
 class Miner(Base):
     __tablename__ = 'miners'
-    id = Column(String, primary_key=True)
+    user_id = Column(String, primary_key=True)
     username = Column(String, primary_key=True)
     password=Column(String,nullable=False)
     address = Column(String, nullable=False)
@@ -16,23 +16,21 @@ class Miner(Base):
 
 class ShareRecord(Base):
     __tablename__ = 'share_record'
-    id = Column(String, primary_key=True)
-    id_user = Column(String, ForeignKey('miners.id'), primary_key=True)
+    share_id = Column(String, primary_key=True)
+    user_id = Column(String, ForeignKey('miners.user_id'), primary_key=True)
     difficulty = Column(String, nullable=False)
     target_network = Column(String, nullable=False)
     datetime = Column(DateTime, nullable=False)
-    # duration=Column(Integer,nullable=False)
-    # hashrate= Column(String, nullable=False)
     job_id = Column(Integer, nullable=False)
     height=Column(Integer, nullable=False)
 class JobRecord(Base):
     __tablename__ = 'jobs_record'
-    id_user = Column(String, ForeignKey('miners.id'), primary_key=True)
+    user_id = Column(String, ForeignKey('miners.user_id'), primary_key=True)
     job_id = Column(Integer, primary_key=True)
     block = Column(Text, nullable=False)
 class Reward(Base):
     __tablename__ = 'reward_record'
-    id=Column(String, primary_key=True)
+    reward_id=Column(String, primary_key=True)
     block = Column(String, primary_key=False)
     # btc=Column(Integer, nullable=False)
 
@@ -126,6 +124,6 @@ class Database:
 
 # database=Database()
 # database.create_all_entities(drop_existing=True)
-# miner = Miner(id='123', username='username', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
+# miner = Miner(user_id='123', username='username', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 # # # miner = Miner(id='1234', username='username1', password='password', address='bcrt1qgwev460zqprwlvnv45nq3tyuwgj4t8ukx8qs53',hashrate=None,target="000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff")
 # database.add_data(miner)
