@@ -1,0 +1,692 @@
+2024-05-23 10:40:03,557 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:40:03,756 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:40:06,338 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:40:07,605 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:40:07,614 - INFO - Get new block:2029
+2024-05-23 10:40:07,616 - INFO - Broadcast block to entire network
+2024-05-23 10:41:05,388 - INFO - Accepted connection from ('127.0.0.1', 42022)
+2024-05-23 10:41:05,404 - INFO - Miner authorized
+2024-05-23 10:41:08,140 - INFO - Miner  request job
+2024-05-23 10:41:08,312 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:08,360 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:08,489 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:08,676 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:09,330 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:09,340 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'NoneType'
+2024-05-23 10:41:09,360 - INFO - Closing connection to ('127.0.0.1', 42022)
+2024-05-23 10:43:36,224 - INFO - Accepted connection from ('127.0.0.1', 60426)
+2024-05-23 10:43:36,263 - INFO - Miner authorized
+2024-05-23 10:43:42,069 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:43:42,248 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:43:43,307 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:43:43,314 - INFO - Get new block:2029
+2024-05-23 10:43:43,315 - INFO - Broadcast block to entire network
+2024-05-23 10:43:58,747 - INFO - Accepted connection from ('127.0.0.1', 42430)
+2024-05-23 10:43:58,759 - INFO - Miner authorized
+2024-05-23 10:44:00,392 - INFO - Miner  request job
+2024-05-23 10:44:00,578 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:44:01,157 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:44:01,381 - INFO - Miner username submited to node , Block 2029
+2024-05-23 10:44:01,381 - INFO - Get new block:2030
+2024-05-23 10:44:01,386 - INFO - Broadcast block to entire network
+2024-05-23 10:44:01,411 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:44:01,412 - INFO - Miner  request job
+2024-05-23 10:44:01,682 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:44:02,033 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:44:02,320 - INFO - Closing connection to ('127.0.0.1', 42430)
+2024-05-23 10:45:24,721 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:45:24,890 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:45:25,886 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:45:25,897 - INFO - Get new block:2030
+2024-05-23 10:45:25,899 - INFO - Broadcast block to entire network
+2024-05-23 10:45:30,970 - INFO - Accepted connection from ('127.0.0.1', 58460)
+2024-05-23 10:45:30,982 - INFO - Miner authorized
+2024-05-23 10:45:35,002 - INFO - Miner  request job
+2024-05-23 10:45:35,351 - INFO - 293822
+2024-05-23 10:45:35,352 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:35,399 - INFO - 368900
+2024-05-23 10:45:35,399 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:35,520 - INFO - 389833
+2024-05-23 10:45:35,520 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:35,555 - INFO - 321561
+2024-05-23 10:45:35,555 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:35,707 - INFO - 307528
+2024-05-23 10:45:35,707 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:35,791 - INFO - 354201
+2024-05-23 10:45:35,791 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:45:36,246 - INFO - Closing connection to ('127.0.0.1', 58460)
+2024-05-23 10:46:08,857 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:46:09,047 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:46:09,968 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:46:09,974 - INFO - Get new block:2030
+2024-05-23 10:46:09,975 - INFO - Broadcast block to entire network
+2024-05-23 10:46:18,031 - INFO - Accepted connection from ('127.0.0.1', 43992)
+2024-05-23 10:46:18,044 - INFO - Miner authorized
+2024-05-23 10:46:18,816 - INFO - Miner  request job
+2024-05-23 10:46:18,900 - INFO - 307528
+2024-05-23 10:46:18,900 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:18,942 - INFO - 261977
+2024-05-23 10:46:18,942 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:19,277 - INFO - 298491
+2024-05-23 10:46:19,277 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:19,318 - INFO - 408820
+2024-05-23 10:46:19,318 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:19,646 - INFO - 326957
+2024-05-23 10:46:19,646 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:19,654 - INFO - 460091
+2024-05-23 10:46:19,654 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:19,862 - INFO - 310243
+2024-05-23 10:46:19,863 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:20,033 - INFO - 265918
+2024-05-23 10:46:20,033 - WARNING - An unexpected error occurred: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2024-05-23 10:46:20,170 - INFO - Closing connection to ('127.0.0.1', 43992)
+2024-05-23 10:46:51,961 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:46:52,117 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:46:53,265 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:46:53,272 - INFO - Get new block:2030
+2024-05-23 10:46:53,274 - INFO - Broadcast block to entire network
+2024-05-23 10:46:58,648 - INFO - Accepted connection from ('127.0.0.1', 37804)
+2024-05-23 10:46:58,661 - INFO - Miner authorized
+2024-05-23 10:47:00,713 - INFO - Miner  request job
+2024-05-23 10:47:00,764 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:00,883 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:00,905 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,124 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,190 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,557 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,587 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,589 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,661 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,900 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:01,909 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,201 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,269 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,572 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,608 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,872 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:02,963 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:03,129 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:03,189 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'NoneType' and 'int'
+2024-05-23 10:47:03,545 - INFO - Closing connection to ('127.0.0.1', 37804)
+2024-05-23 10:48:02,943 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:48:03,138 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:49:50,381 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:50:00,788 - INFO - Accepted connection from ('127.0.0.1', 58998)
+2024-05-23 10:50:00,828 - INFO - Miner authorized
+2024-05-23 10:50:02,125 - INFO - Miner  request job
+2024-05-23 10:50:02,503 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:02,557 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:02,557 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:02,667 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:02,772 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:03,033 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:03,077 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:03,373 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:03,386 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:50:04,436 - INFO - Closing connection to ('127.0.0.1', 58998)
+2024-05-23 10:50:53,173 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:50:53,391 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:50:54,335 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:51:04,285 - INFO - Accepted connection from ('127.0.0.1', 49690)
+2024-05-23 10:51:04,300 - INFO - Miner authorized
+2024-05-23 10:51:10,023 - INFO - Miner  request job
+2024-05-23 10:51:10,689 - INFO - 279717.0
+2024-05-23 10:51:11,647 - INFO - 228936.0
+2024-05-23 10:51:12,427 - INFO - 263641.0
+2024-05-23 10:51:12,457 - INFO - 250097.0
+2024-05-23 10:51:12,656 - INFO - 263281.0
+2024-05-23 10:51:12,808 - INFO - 244171.0
+2024-05-23 10:51:12,875 - INFO - 233140.0
+2024-05-23 10:51:13,075 - INFO - 214481.0
+2024-05-23 10:51:13,228 - INFO - 232535.0
+2024-05-23 10:51:13,306 - INFO - 255636.0
+2024-05-23 10:51:14,388 - INFO - 244397.0
+2024-05-23 10:51:14,723 - INFO - 282346.0
+2024-05-23 10:51:15,059 - INFO - 280298.0
+2024-05-23 10:51:15,100 - INFO - 269792.0
+2024-05-23 10:51:15,483 - INFO - 309022.0
+2024-05-23 10:51:15,632 - INFO - 207496.0
+2024-05-23 10:51:15,657 - INFO - Closing connection to ('127.0.0.1', 49690)
+2024-05-23 10:51:33,950 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:51:34,201 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:51:54,428 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:52:01,123 - INFO - Accepted connection from ('127.0.0.1', 44794)
+2024-05-23 10:52:01,140 - INFO - Miner authorized
+2024-05-23 10:52:02,312 - INFO - Miner  request job
+2024-05-23 10:52:02,740 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:02,784 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:03,863 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:04,134 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:04,242 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:04,436 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:04,580 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:05,032 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:05,620 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:05,732 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:05,913 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:06,034 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:06,246 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:06,649 - INFO - Closing connection to ('127.0.0.1', 44794)
+2024-05-23 10:52:33,417 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:52:33,592 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:52:34,454 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:52:42,868 - INFO - Accepted connection from ('127.0.0.1', 59364)
+2024-05-23 10:52:42,883 - INFO - Miner authorized
+2024-05-23 10:52:43,890 - INFO - Miner  request job
+2024-05-23 10:52:44,016 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:44,364 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:44,548 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:44,790 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:44,861 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:44,897 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:45,115 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:45,492 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:45,979 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:46,274 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:46,313 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:46,934 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:46,984 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:47,230 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:47,746 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:52:48,503 - INFO - Closing connection to ('127.0.0.1', 59364)
+2024-05-23 10:53:05,595 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:53:05,789 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:53:49,442 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:53:52,903 - INFO - Accepted connection from ('127.0.0.1', 41018)
+2024-05-23 10:53:52,921 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:54:19,039 - INFO - Closing connection to ('127.0.0.1', 41018)
+2024-05-23 10:54:29,340 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:54:29,492 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:54:30,879 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:54:33,681 - INFO - Accepted connection from ('127.0.0.1', 55588)
+2024-05-23 10:54:33,692 - WARNING - An unexpected error occurred: invalid literal for int() with base 10: '207496.0'
+2024-05-23 10:55:32,728 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:55:32,933 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:55:34,048 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:55:36,918 - INFO - Accepted connection from ('127.0.0.1', 60466)
+2024-05-23 10:55:36,930 - INFO - Miner authorized
+2024-05-23 10:55:43,359 - INFO - Miner  request job
+2024-05-23 10:55:44,129 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:44,441 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:44,877 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,011 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,253 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,297 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,369 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,475 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,609 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,635 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,657 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,661 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,671 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,734 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:45,924 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:46,081 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:46,090 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:46,091 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:46,616 - WARNING - An unexpected error occurred: unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 10:55:46,868 - INFO - Closing connection to ('127.0.0.1', 60466)
+2024-05-23 10:56:29,863 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:56:30,021 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:56:30,799 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 10:56:38,000 - INFO - Accepted connection from ('127.0.0.1', 41726)
+2024-05-23 10:56:38,013 - INFO - Miner authorized
+2024-05-23 10:56:38,984 - INFO - Miner  request job
+2024-05-23 10:57:35,674 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 10:57:35,675 - CRITICAL - Bitcoin down
+2024-05-23 10:57:35,865 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:00:21,097 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:00:21,526 - INFO - Get block
+2024-05-23 11:00:21,557 - INFO - Get new block:2029
+2024-05-23 11:00:21,564 - INFO - Broadcast block to entire network
+2024-05-23 11:00:33,034 - INFO - Accepted connection from ('127.0.0.1', 46638)
+2024-05-23 11:00:33,080 - INFO - Miner authorized
+2024-05-23 11:00:35,928 - INFO - Miner  request job
+2024-05-23 11:00:39,466 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'str'
+2024-05-23 11:00:41,551 - WARNING - An unexpected error occurred: unsupported operand type(s) for +: 'int' and 'str'
+2024-05-23 11:00:45,056 - INFO - Closing connection to ('127.0.0.1', 46638)
+2024-05-23 11:00:47,636 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:00:48,042 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:01:45,750 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:01:45,834 - INFO - Get block
+2024-05-23 11:01:45,975 - INFO - Get new block:2029
+2024-05-23 11:01:46,030 - INFO - Broadcast block to entire network
+2024-05-23 11:01:50,257 - INFO - Accepted connection from ('127.0.0.1', 54672)
+2024-05-23 11:01:50,318 - INFO - Miner authorized
+2024-05-23 11:01:52,257 - INFO - Miner  request job
+2024-05-23 11:02:29,709 - INFO - Miner username submited to node , Block 2029
+2024-05-23 11:02:29,722 - INFO - Get block
+2024-05-23 11:02:29,723 - INFO - Get new block:2030
+2024-05-23 11:02:29,887 - INFO - Broadcast block to entire network
+2024-05-23 11:02:30,470 - INFO - Miner  request job
+2024-05-23 11:02:35,893 - INFO - Get block
+2024-05-23 11:02:35,893 - INFO - Get new block:2031
+2024-05-23 11:02:35,896 - INFO - Broadcast block to entire network
+2024-05-23 11:02:35,899 - INFO - Miner username submited to node , Block 2030
+2024-05-23 11:02:36,120 - INFO - Miner  request job
+2024-05-23 11:03:08,828 - INFO - Get block
+2024-05-23 11:03:08,829 - INFO - Get new block:2032
+2024-05-23 11:03:08,830 - INFO - Miner username submited to node , Block 2031
+2024-05-23 11:03:08,852 - INFO - Broadcast block to entire network
+2024-05-23 11:03:09,792 - INFO - Miner  request job
+2024-05-23 11:03:13,252 - INFO - Get block
+2024-05-23 11:03:13,252 - INFO - Get new block:2033
+2024-05-23 11:03:13,276 - INFO - Miner username submited to node , Block 2032
+2024-05-23 11:03:13,303 - INFO - Update miner's target
+2024-05-23 11:03:13,461 - CRITICAL - unsupported operand type(s) for /: 'str' and 'int'
+2024-05-23 11:03:13,463 - INFO - Broadcast block to entire network
+2024-05-23 11:03:13,466 - INFO - Miner  request job
+2024-05-23 11:03:47,396 - INFO - Miner username submited to node , Block 2033
+2024-05-23 11:03:47,400 - INFO - Get block
+2024-05-23 11:03:47,403 - INFO - Get new block:2034
+2024-05-23 11:03:47,428 - INFO - Broadcast block to entire network
+2024-05-23 11:03:47,639 - INFO - Miner  request job
+2024-05-23 11:04:04,642 - INFO - Miner username submited to node , Block 2034
+2024-05-23 11:04:04,645 - INFO - Get block
+2024-05-23 11:04:04,646 - INFO - Get new block:2035
+2024-05-23 11:04:04,672 - INFO - Broadcast block to entire network
+2024-05-23 11:04:04,739 - INFO - Miner  request job
+2024-05-23 11:04:19,110 - INFO - Closing connection to ('127.0.0.1', 54672)
+2024-05-23 11:04:20,722 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:04:20,896 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:04:22,374 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:04:22,387 - INFO - Get new block:2035
+2024-05-23 11:04:22,389 - INFO - Broadcast block to entire network
+2024-05-23 11:04:34,756 - INFO - Accepted connection from ('127.0.0.1', 39022)
+2024-05-23 11:04:34,793 - INFO - Miner authorized
+2024-05-23 11:04:35,804 - INFO - Miner request job
+2024-05-23 11:04:42,049 - INFO - Get new block:2036
+2024-05-23 11:04:42,050 - INFO - Miner username submited to node , Block 2035
+2024-05-23 11:04:42,139 - INFO - Broadcast block to entire network
+2024-05-23 11:04:42,318 - INFO - Miner request job
+2024-05-23 11:04:52,045 - INFO - Miner username submited to node , Block 2036
+2024-05-23 11:04:52,050 - INFO - Get new block:2037
+2024-05-23 11:04:52,053 - INFO - Broadcast block to entire network
+2024-05-23 11:04:52,243 - INFO - Miner request job
+2024-05-23 11:05:01,622 - INFO - Get new block:2038
+2024-05-23 11:05:01,675 - INFO - Miner username submited to node , Block 2037
+2024-05-23 11:05:01,682 - INFO - Update miner's target
+2024-05-23 11:05:01,730 - CRITICAL - invalid literal for int() with base 10: '115652.0'
+2024-05-23 11:05:01,730 - INFO - Broadcast block to entire network
+2024-05-23 11:05:01,818 - INFO - Miner request job
+2024-05-23 11:05:21,930 - INFO - Miner username submited to node , Block 2038
+2024-05-23 11:05:21,931 - INFO - Get new block:2039
+2024-05-23 11:05:21,939 - INFO - Broadcast block to entire network
+2024-05-23 11:05:22,020 - INFO - Miner request job
+2024-05-23 11:05:52,137 - INFO - Miner username submited to node , Block 2039
+2024-05-23 11:05:52,139 - INFO - Get new block:2040
+2024-05-23 11:05:52,144 - INFO - Broadcast block to entire network
+2024-05-23 11:05:52,533 - INFO - Miner request job
+2024-05-23 11:06:38,091 - INFO - Miner username submited to node , Block 2040
+2024-05-23 11:06:38,093 - INFO - Get new block:2041
+2024-05-23 11:06:38,175 - INFO - Broadcast block to entire network
+2024-05-23 11:06:38,232 - INFO - Miner request job
+2024-05-23 11:06:42,059 - INFO - Get new block:2042
+2024-05-23 11:06:42,060 - INFO - Miner username submited to node , Block 2041
+2024-05-23 11:06:42,065 - INFO - Broadcast block to entire network
+2024-05-23 11:06:42,196 - INFO - Miner request job
+2024-05-23 11:06:48,655 - INFO - Get new block:2043
+2024-05-23 11:06:48,655 - INFO - Miner username submited to node , Block 2042
+2024-05-23 11:06:48,665 - INFO - Update miner's target
+2024-05-23 11:06:48,717 - CRITICAL - invalid literal for int() with base 10: '182358.0'
+2024-05-23 11:06:48,717 - INFO - Broadcast block to entire network
+2024-05-23 11:06:48,736 - INFO - Miner request job
+2024-05-23 11:06:50,601 - INFO - Closing connection to ('127.0.0.1', 39022)
+2024-05-23 11:06:53,446 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:06:53,589 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:07:39,491 - INFO - Update miner's target
+2024-05-23 11:07:39,506 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:08:49,128 - INFO - Update miner's target
+2024-05-23 11:08:49,229 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:09:07,497 - INFO - Update miner's target
+2024-05-23 11:09:07,513 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:09:26,169 - INFO - Update miner's target
+2024-05-23 11:09:26,187 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:09:49,910 - INFO - Update miner's target
+2024-05-23 11:09:50,065 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:10:43,999 - INFO - Update miner's target
+2024-05-23 11:10:44,051 - CRITICAL - invalid literal for int() with base 10: '159479.0'
+2024-05-23 11:13:55,548 - INFO - Update miner's target
+2024-05-23 11:14:20,588 - INFO - Update miner's target
+2024-05-23 11:14:20,604 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:14:20,617 - INFO - Get new block:2043
+2024-05-23 11:14:20,619 - INFO - Broadcast block to entire network
+2024-05-23 11:14:30,351 - INFO - Accepted connection from ('127.0.0.1', 56130)
+2024-05-23 11:14:30,381 - INFO - Miner authorized
+2024-05-23 11:14:31,568 - INFO - Miner request job
+2024-05-23 11:14:35,177 - INFO - Miner username submited to node , Block 2043
+2024-05-23 11:14:35,178 - INFO - Get new block:2044
+2024-05-23 11:14:35,312 - INFO - Broadcast block to entire network
+2024-05-23 11:14:35,679 - INFO - Miner request job
+2024-05-23 11:14:39,575 - INFO - Miner username submited to node , Block 2044
+2024-05-23 11:14:39,576 - INFO - Get new block:2045
+2024-05-23 11:14:39,588 - INFO - Broadcast block to entire network
+2024-05-23 11:14:39,644 - INFO - Miner request job
+2024-05-23 11:14:41,613 - INFO - Miner username submited to node , Block 2045
+2024-05-23 11:14:41,613 - INFO - Get new block:2046
+2024-05-23 11:14:41,624 - INFO - Broadcast block to entire network
+2024-05-23 11:14:41,685 - INFO - Miner request job
+2024-05-23 11:14:43,548 - INFO - Miner username submited to node , Block 2046
+2024-05-23 11:14:43,549 - INFO - Get new block:2047
+2024-05-23 11:14:43,553 - INFO - Broadcast block to entire network
+2024-05-23 11:14:43,604 - INFO - Miner request job
+2024-05-23 11:14:52,306 - INFO - Miner username submited to node , Block 2047
+2024-05-23 11:14:52,309 - INFO - Get new block:2048
+2024-05-23 11:14:52,321 - INFO - Update miner's target
+2024-05-23 11:14:52,416 - INFO - Broadcast block to entire network
+2024-05-23 11:14:52,418 - INFO - Miner request job
+2024-05-23 11:14:55,422 - INFO - Get new block:2049
+2024-05-23 11:14:55,422 - INFO - Miner username submited to node , Block 2048
+2024-05-23 11:14:55,450 - INFO - Broadcast block to entire network
+2024-05-23 11:14:55,583 - INFO - Miner request job
+2024-05-23 11:15:04,288 - INFO - Get new block:2050
+2024-05-23 11:15:04,293 - INFO - Miner username submited to node , Block 2049
+2024-05-23 11:15:04,361 - INFO - Broadcast block to entire network
+2024-05-23 11:15:04,415 - INFO - Miner request job
+2024-05-23 11:15:14,172 - INFO - Miner username submited to node , Block 2050
+2024-05-23 11:15:14,176 - INFO - Get new block:2051
+2024-05-23 11:15:14,181 - INFO - Broadcast block to entire network
+2024-05-23 11:15:14,245 - INFO - Miner request job
+2024-05-23 11:15:35,983 - INFO - Miner username submited to node , Block 2051
+2024-05-23 11:15:35,985 - INFO - Get new block:2052
+2024-05-23 11:15:35,988 - INFO - Broadcast block to entire network
+2024-05-23 11:15:36,202 - INFO - Miner request job
+2024-05-23 11:15:38,879 - INFO - Get new block:2053
+2024-05-23 11:15:38,882 - INFO - Miner username submited to node , Block 2052
+2024-05-23 11:15:38,888 - INFO - Update miner's target
+2024-05-23 11:15:38,989 - INFO - Broadcast block to entire network
+2024-05-23 11:15:38,990 - INFO - Miner request job
+2024-05-23 11:15:42,267 - INFO - Get new block:2054
+2024-05-23 11:15:42,274 - INFO - Miner username submited to node , Block 2053
+2024-05-23 11:15:42,277 - INFO - Broadcast block to entire network
+2024-05-23 11:15:42,332 - INFO - Miner request job
+2024-05-23 11:15:42,961 - INFO - Get new block:2055
+2024-05-23 11:15:42,966 - INFO - Miner username submited to node , Block 2054
+2024-05-23 11:15:42,976 - INFO - Broadcast block to entire network
+2024-05-23 11:15:43,056 - INFO - Miner request job
+2024-05-23 11:15:54,567 - INFO - Get new block:2056
+2024-05-23 11:15:54,571 - INFO - Miner username submited to node , Block 2055
+2024-05-23 11:15:54,579 - INFO - Broadcast block to entire network
+2024-05-23 11:15:54,655 - INFO - Miner request job
+2024-05-23 11:15:58,135 - INFO - Get new block:2057
+2024-05-23 11:15:58,138 - INFO - Broadcast block to entire network
+2024-05-23 11:15:58,142 - INFO - Miner username submited to node , Block 2056
+2024-05-23 11:15:58,199 - INFO - Miner request job
+2024-05-23 11:16:00,492 - INFO - Get new block:2058
+2024-05-23 11:16:00,492 - INFO - Miner username submited to node , Block 2057
+2024-05-23 11:16:00,524 - INFO - Update miner's target
+2024-05-23 11:16:00,621 - INFO - Broadcast block to entire network
+2024-05-23 11:16:00,622 - INFO - Miner request job
+2024-05-23 11:16:02,928 - INFO - Miner username submited to node , Block 2058
+2024-05-23 11:16:02,930 - INFO - Get new block:2059
+2024-05-23 11:16:03,017 - INFO - Broadcast block to entire network
+2024-05-23 11:16:03,472 - INFO - Miner request job
+2024-05-23 11:16:06,311 - INFO - Miner username submited to node , Block 2059
+2024-05-23 11:16:06,317 - INFO - Get new block:2060
+2024-05-23 11:16:06,371 - INFO - Broadcast block to entire network
+2024-05-23 11:16:06,420 - INFO - Miner request job
+2024-05-23 11:16:08,783 - INFO - Closing connection to ('127.0.0.1', 56130)
+2024-05-23 11:16:15,283 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:16:15,563 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:17:22,808 - INFO - Update miner's target
+2024-05-23 11:17:22,816 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:17:22,823 - INFO - Get new block:2060
+2024-05-23 11:17:22,823 - INFO - Broadcast block to entire network
+2024-05-23 11:17:26,020 - INFO - Accepted connection from ('127.0.0.1', 52730)
+2024-05-23 11:17:26,064 - INFO - Miner authorized
+2024-05-23 11:17:28,541 - INFO - Miner request job
+2024-05-23 11:17:37,220 - INFO - Closing connection to ('127.0.0.1', 52730)
+2024-05-23 11:22:43,127 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:22:43,281 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:23:33,825 - INFO - Update miner's target
+2024-05-23 11:25:03,807 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:25:03,814 - INFO - Get new block:2060
+2024-05-23 11:25:03,815 - INFO - Broadcast block to entire network
+2024-05-23 11:25:10,581 - INFO - Accepted connection from ('127.0.0.1', 59170)
+2024-05-23 11:25:10,620 - INFO - Miner authorized
+2024-05-23 11:25:11,642 - INFO - Miner request job
+2024-05-23 11:25:18,452 - INFO - Miner username submited to node , Block 2060
+2024-05-23 11:25:18,468 - INFO - Get new block:2061
+2024-05-23 11:25:18,471 - INFO - Broadcast block to entire network
+2024-05-23 11:25:18,521 - INFO - Miner request job
+2024-05-23 11:25:25,335 - INFO - Miner username submited to node , Block 2061
+2024-05-23 11:25:25,336 - INFO - Get new block:2062
+2024-05-23 11:25:25,340 - INFO - Broadcast block to entire network
+2024-05-23 11:25:25,421 - INFO - Miner request job
+2024-05-23 11:25:26,715 - INFO - Miner username submited to node , Block 2062
+2024-05-23 11:25:26,718 - INFO - Get new block:2063
+2024-05-23 11:25:26,726 - INFO - Update miner's target
+2024-05-23 11:25:26,809 - INFO - Broadcast block to entire network
+2024-05-23 11:25:26,811 - INFO - Miner request job
+2024-05-23 11:25:32,745 - INFO - Miner username submited to node , Block 2063
+2024-05-23 11:25:32,750 - INFO - Get new block:2064
+2024-05-23 11:25:32,764 - INFO - Broadcast block to entire network
+2024-05-23 11:25:32,813 - INFO - Miner request job
+2024-05-23 11:25:33,937 - INFO - Closing connection to ('127.0.0.1', 59170)
+2024-05-23 11:25:44,201 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:25:44,369 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:26:16,206 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:26:16,218 - INFO - Get new block:2064
+2024-05-23 11:26:16,219 - INFO - Broadcast block to entire network
+2024-05-23 11:26:20,548 - INFO - Accepted connection from ('127.0.0.1', 52208)
+2024-05-23 11:26:20,623 - INFO - Miner authorized
+2024-05-23 11:26:22,399 - INFO - Miner request job
+2024-05-23 11:26:26,899 - INFO - Miner username submited to node , Block 2064
+2024-05-23 11:26:26,906 - INFO - Get new block:2065
+2024-05-23 11:26:26,936 - INFO - Broadcast block to entire network
+2024-05-23 11:26:27,005 - INFO - Miner request job
+2024-05-23 11:26:40,417 - INFO - Closing connection to ('127.0.0.1', 52208)
+2024-05-23 11:26:46,613 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:26:46,792 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:29:29,745 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:29:29,782 - INFO - Get new block:2065
+2024-05-23 11:29:29,783 - INFO - Broadcast block to entire network
+2024-05-23 11:29:32,917 - INFO - Accepted connection from ('127.0.0.1', 47624)
+2024-05-23 11:29:32,966 - INFO - Miner authorized
+2024-05-23 11:29:39,097 - INFO - Miner request job
+2024-05-23 11:29:43,895 - INFO - Miner username submited to node , Block 2065
+2024-05-23 11:29:43,899 - INFO - Get new block:2066
+2024-05-23 11:29:43,903 - INFO - Broadcast block to entire network
+2024-05-23 11:29:43,988 - INFO - Miner request job
+2024-05-23 11:29:56,317 - INFO - Get new block:2067
+2024-05-23 11:29:56,318 - INFO - Miner username submited to node , Block 2066
+2024-05-23 11:29:56,320 - INFO - Broadcast block to entire network
+2024-05-23 11:29:56,375 - INFO - Miner request job
+2024-05-23 11:30:01,175 - INFO - Miner username submited to node , Block 2067
+2024-05-23 11:30:01,179 - INFO - Get new block:2068
+2024-05-23 11:30:01,183 - INFO - Update miner's target
+2024-05-23 11:30:01,255 - INFO - Broadcast block to entire network
+2024-05-23 11:30:01,277 - INFO - Miner request job
+2024-05-23 11:30:01,926 - INFO - Get new block:2069
+2024-05-23 11:30:01,928 - INFO - Miner username submited to node , Block 2068
+2024-05-23 11:30:01,939 - INFO - Broadcast block to entire network
+2024-05-23 11:30:02,005 - INFO - Miner request job
+2024-05-23 11:30:09,541 - INFO - Miner username submited to node , Block 2069
+2024-05-23 11:30:09,545 - INFO - Get new block:2070
+2024-05-23 11:30:09,549 - INFO - Broadcast block to entire network
+2024-05-23 11:30:09,611 - INFO - Miner request job
+2024-05-23 11:30:13,789 - INFO - Get new block:2071
+2024-05-23 11:30:13,790 - INFO - Miner username submited to node , Block 2070
+2024-05-23 11:30:13,796 - INFO - Broadcast block to entire network
+2024-05-23 11:30:13,919 - INFO - Miner request job
+2024-05-23 11:30:17,009 - INFO - Miner username submited to node , Block 2071
+2024-05-23 11:30:17,012 - INFO - Get new block:2072
+2024-05-23 11:30:17,017 - INFO - Broadcast block to entire network
+2024-05-23 11:30:17,073 - INFO - Miner request job
+2024-05-23 11:30:21,746 - INFO - Closing connection to ('127.0.0.1', 47624)
+2024-05-23 11:30:24,534 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:30:24,719 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:30:41,353 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:30:41,398 - INFO - Get new block:2072
+2024-05-23 11:30:41,399 - INFO - Broadcast block to entire network
+2024-05-23 11:30:44,314 - INFO - Accepted connection from ('127.0.0.1', 46056)
+2024-05-23 11:30:44,329 - INFO - Miner authorized
+2024-05-23 11:30:44,897 - INFO - Miner request job
+2024-05-23 11:30:59,423 - INFO - Get new block:2073
+2024-05-23 11:30:59,425 - INFO - Miner username submited to node , Block 2072
+2024-05-23 11:30:59,449 - INFO - Update miner's target
+2024-05-23 11:30:59,597 - INFO - Broadcast block to entire network
+2024-05-23 11:30:59,599 - INFO - Miner request job
+2024-05-23 11:31:03,427 - INFO - Miner username submited to node , Block 2073
+2024-05-23 11:31:03,431 - INFO - Get new block:2074
+2024-05-23 11:31:03,436 - INFO - Broadcast block to entire network
+2024-05-23 11:31:03,518 - INFO - Miner request job
+2024-05-23 11:31:22,776 - INFO - Get new block:2075
+2024-05-23 11:31:22,777 - INFO - Miner username submited to node , Block 2074
+2024-05-23 11:31:22,795 - INFO - Broadcast block to entire network
+2024-05-23 11:31:22,851 - INFO - Miner request job
+2024-05-23 11:31:34,208 - INFO - Miner username submited to node , Block 2075
+2024-05-23 11:31:34,208 - INFO - Get new block:2076
+2024-05-23 11:31:34,213 - INFO - Broadcast block to entire network
+2024-05-23 11:31:34,259 - INFO - Miner request job
+2024-05-23 11:31:35,827 - INFO - Get new block:2077
+2024-05-23 11:31:35,832 - INFO - Broadcast block to entire network
+2024-05-23 11:31:35,834 - INFO - Miner username submited to node , Block 2076
+2024-05-23 11:31:35,992 - INFO - Miner request job
+2024-05-23 11:31:42,719 - INFO - Miner username submited to node , Block 2077
+2024-05-23 11:31:42,725 - INFO - Get new block:2078
+2024-05-23 11:31:42,728 - INFO - Update miner's target
+2024-05-23 11:31:42,809 - INFO - Broadcast block to entire network
+2024-05-23 11:31:42,811 - INFO - Miner request job
+2024-05-23 11:31:47,863 - INFO - Get new block:2079
+2024-05-23 11:31:47,871 - INFO - Miner username submited to node , Block 2078
+2024-05-23 11:31:47,886 - INFO - Broadcast block to entire network
+2024-05-23 11:31:48,067 - INFO - Miner request job
+2024-05-23 11:31:52,030 - INFO - Get new block:2080
+2024-05-23 11:31:52,034 - INFO - Miner username submited to node , Block 2079
+2024-05-23 11:31:52,041 - INFO - Broadcast block to entire network
+2024-05-23 11:31:52,119 - INFO - Miner request job
+2024-05-23 11:31:54,874 - INFO - Miner username submited to node , Block 2080
+2024-05-23 11:31:54,877 - INFO - Get new block:2081
+2024-05-23 11:31:54,879 - INFO - Broadcast block to entire network
+2024-05-23 11:31:54,965 - INFO - Miner request job
+2024-05-23 11:32:03,309 - INFO - Miner username submited to node , Block 2081
+2024-05-23 11:32:03,313 - INFO - Get new block:2082
+2024-05-23 11:32:03,364 - INFO - Broadcast block to entire network
+2024-05-23 11:32:03,465 - INFO - Miner request job
+2024-05-23 11:32:05,521 - INFO - Miner username submited to node , Block 2082
+2024-05-23 11:32:05,526 - INFO - Get new block:2083
+2024-05-23 11:32:05,548 - INFO - Update miner's target
+2024-05-23 11:32:05,927 - INFO - Broadcast block to entire network
+2024-05-23 11:32:05,928 - INFO - Miner request job
+2024-05-23 11:32:07,656 - INFO - Miner username submited to node , Block 2083
+2024-05-23 11:32:07,658 - INFO - Get new block:2084
+2024-05-23 11:32:07,665 - INFO - Broadcast block to entire network
+2024-05-23 11:32:07,768 - INFO - Miner request job
+2024-05-23 11:32:10,353 - INFO - Closing connection to ('127.0.0.1', 46056)
+2024-05-23 11:32:11,506 - INFO - Accepted connection from ('127.0.0.1', 55270)
+2024-05-23 11:32:11,511 - INFO - Miner authorized
+2024-05-23 11:32:11,995 - INFO - Miner request job
+2024-05-23 11:32:13,643 - INFO - Get new block:2085
+2024-05-23 11:32:13,644 - INFO - Miner username submited to node , Block 2084
+2024-05-23 11:32:13,652 - INFO - Broadcast block to entire network
+2024-05-23 11:32:13,718 - INFO - Miner request job
+2024-05-23 11:32:23,169 - INFO - Miner username submited to node , Block 2085
+2024-05-23 11:32:23,172 - INFO - Get new block:2086
+2024-05-23 11:32:23,174 - INFO - Broadcast block to entire network
+2024-05-23 11:32:23,257 - INFO - Miner request job
+2024-05-23 11:32:27,556 - INFO - Get new block:2087
+2024-05-23 11:32:27,560 - INFO - Broadcast block to entire network
+2024-05-23 11:32:27,563 - INFO - Miner username submited to node , Block 2086
+2024-05-23 11:32:27,623 - INFO - Miner request job
+2024-05-23 11:32:32,803 - INFO - Miner username submited to node , Block 2087
+2024-05-23 11:32:32,805 - INFO - Get new block:2088
+2024-05-23 11:32:32,809 - INFO - Update miner's target
+2024-05-23 11:32:32,942 - INFO - Broadcast block to entire network
+2024-05-23 11:32:32,943 - INFO - Miner request job
+2024-05-23 11:32:33,726 - INFO - Get new block:2089
+2024-05-23 11:32:33,728 - INFO - Broadcast block to entire network
+2024-05-23 11:32:33,731 - INFO - Miner username submited to node , Block 2088
+2024-05-23 11:32:33,807 - INFO - Miner request job
+2024-05-23 11:32:36,418 - INFO - Miner username submited to node , Block 2089
+2024-05-23 11:32:36,427 - INFO - Get new block:2090
+2024-05-23 11:32:36,483 - INFO - Broadcast block to entire network
+2024-05-23 11:32:36,534 - INFO - Miner request job
+2024-05-23 11:32:43,048 - INFO - Miner username submited to node , Block 2090
+2024-05-23 11:32:43,055 - INFO - Get new block:2091
+2024-05-23 11:32:43,058 - INFO - Broadcast block to entire network
+2024-05-23 11:32:43,122 - INFO - Miner request job
+2024-05-23 11:32:48,677 - INFO - Miner username submited to node , Block 2091
+2024-05-23 11:32:48,681 - INFO - Get new block:2092
+2024-05-23 11:32:48,682 - INFO - Broadcast block to entire network
+2024-05-23 11:32:48,742 - INFO - Miner request job
+2024-05-23 11:33:04,325 - INFO - Miner username submited to node , Block 2092
+2024-05-23 11:33:04,328 - INFO - Get new block:2093
+2024-05-23 11:33:04,329 - INFO - Update miner's target
+2024-05-23 11:33:04,416 - INFO - Broadcast block to entire network
+2024-05-23 11:33:04,419 - INFO - Miner request job
+2024-05-23 11:33:11,962 - INFO - Get new block:2094
+2024-05-23 11:33:11,962 - INFO - Miner username submited to node , Block 2093
+2024-05-23 11:33:11,971 - INFO - Broadcast block to entire network
+2024-05-23 11:33:12,022 - INFO - Miner request job
+2024-05-23 11:33:26,697 - INFO - Miner username submited to node , Block 2094
+2024-05-23 11:33:26,698 - INFO - Get new block:2095
+2024-05-23 11:33:26,713 - INFO - Broadcast block to entire network
+2024-05-23 11:33:26,817 - INFO - Miner request job
+2024-05-23 11:33:32,688 - INFO - Miner username submited to node , Block 2095
+2024-05-23 11:33:32,688 - INFO - Get new block:2096
+2024-05-23 11:33:32,692 - INFO - Broadcast block to entire network
+2024-05-23 11:33:32,814 - INFO - Miner request job
+2024-05-23 11:33:41,397 - INFO - Miner username submited to node , Block 2096
+2024-05-23 11:33:41,398 - INFO - Get new block:2097
+2024-05-23 11:33:41,407 - INFO - Broadcast block to entire network
+2024-05-23 11:33:41,472 - INFO - Miner request job
+2024-05-23 11:33:44,342 - INFO - Get new block:2098
+2024-05-23 11:33:44,345 - INFO - Miner username submited to node , Block 2097
+2024-05-23 11:33:44,348 - INFO - Update miner's target
+2024-05-23 11:33:44,493 - INFO - Broadcast block to entire network
+2024-05-23 11:33:44,494 - INFO - Miner request job
+2024-05-23 11:33:51,162 - INFO - Closing connection to ('127.0.0.1', 55270)
+2024-05-23 11:33:54,679 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:33:54,861 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:38:30,091 - INFO - Server listening on 127.0.0.1:3002
+2024-05-23 11:38:30,222 - INFO - Get new block:2098
+2024-05-23 11:38:30,224 - INFO - Broadcast block to entire network
+2024-05-23 11:38:33,159 - INFO - Accepted connection from ('127.0.0.1', 53114)
+2024-05-23 11:38:33,207 - INFO - Miner authorized
+2024-05-23 11:38:33,599 - INFO - Miner request job
+2024-05-23 11:38:36,868 - INFO - Get new block:2099
+2024-05-23 11:38:36,872 - INFO - Miner username submited to node , Block 2098
+2024-05-23 11:38:36,876 - INFO - Broadcast block to entire network
+2024-05-23 11:38:37,013 - INFO - Miner request job
+2024-05-23 11:38:39,196 - INFO - Get new block:2100
+2024-05-23 11:38:39,213 - INFO - Miner username submited to node , Block 2099
+2024-05-23 11:38:39,244 - INFO - Broadcast block to entire network
+2024-05-23 11:38:39,407 - INFO - Miner request job
+2024-05-23 11:38:45,978 - INFO - Get new block:2101
+2024-05-23 11:38:45,978 - INFO - Miner username submited to node , Block 2100
+2024-05-23 11:38:45,981 - INFO - Broadcast block to entire network
+2024-05-23 11:38:46,031 - INFO - Miner request job
+2024-05-23 11:38:54,380 - INFO - Get new block:2102
+2024-05-23 11:38:54,381 - INFO - Miner username submited to node , Block 2101
+2024-05-23 11:38:54,383 - INFO - Broadcast block to entire network
+2024-05-23 11:38:54,434 - INFO - Miner request job
+2024-05-23 11:39:08,238 - INFO - Miner username submited to node , Block 2102
+2024-05-23 11:39:08,241 - INFO - Get new block:2103
+2024-05-23 11:39:08,248 - INFO - Update miner's target
+2024-05-23 11:39:08,342 - INFO - Broadcast block to entire network
+2024-05-23 11:39:08,343 - INFO - Miner request job
+2024-05-23 11:39:16,701 - INFO - Get new block:2104
+2024-05-23 11:39:16,713 - INFO - Broadcast block to entire network
+2024-05-23 11:39:16,715 - INFO - Miner username submited to node , Block 2103
+2024-05-23 11:39:16,787 - INFO - Miner request job
+2024-05-23 11:39:20,518 - INFO - Get new block:2105
+2024-05-23 11:39:20,534 - INFO - Miner username submited to node , Block 2104
+2024-05-23 11:39:20,641 - INFO - Broadcast block to entire network
+2024-05-23 11:39:21,011 - INFO - Miner request job
+2024-05-23 11:39:23,623 - INFO - Miner username submited to node , Block 2105
+2024-05-23 11:39:23,627 - INFO - Get new block:2106
+2024-05-23 11:39:23,632 - INFO - Broadcast block to entire network
+2024-05-23 11:39:23,686 - INFO - Miner request job
+2024-05-23 11:39:24,411 - INFO - Get new block:2107
+2024-05-23 11:39:24,412 - INFO - Miner username submited to node , Block 2106
+2024-05-23 11:39:24,417 - INFO - Broadcast block to entire network
+2024-05-23 11:39:24,516 - INFO - Miner request job
+2024-05-23 11:39:25,247 - INFO - Get new block:2108
+2024-05-23 11:39:25,248 - INFO - Miner username submited to node , Block 2107
+2024-05-23 11:39:25,272 - INFO - Update miner's target
+2024-05-23 11:39:25,346 - INFO - Broadcast block to entire network
+2024-05-23 11:39:25,393 - INFO - Miner request job
+2024-05-23 11:39:29,130 - INFO - Closing connection to ('127.0.0.1', 53114)
+2024-05-23 11:39:33,889 - CRITICAL - Server terminated. Closing connections.
+2024-05-23 11:39:34,071 - CRITICAL - Server terminated. Closing connections.
